@@ -1,5 +1,7 @@
 <h1 align="center">🎬 CLIP_TALK 🎙️</h1> <p align="center"> <b>AI-powered recommendations. Real reviews. Social discovery.<br> Entertainment, redefined.</b> </p> <p align="center"> <img src="https://img.shields.io/badge/AI-Recommendations-blueviolet?style=for-the-badge"> <img src="https://img.shields.io/badge/Social-Engagement-brightgreen?style=for-the-badge"> <img src="https://img.shields.io/badge/Reviews-Authentic-orange?style=for-the-badge"> 
-🚀 Overview
+
+  
+  🚀 Overview
 
 CLIP_TALK is a modern web platform designed to change the way people discover entertainment.
 It blends AI-driven personalization, community reviews, and social features to make exploring content seamless, authentic, and fun.
