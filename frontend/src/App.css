@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #14181c;
+  color: #f3f4f6;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4b5563;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}
+
+/* Custom components */
+.btn {
+  @apply px-4 py-2 rounded-md font-medium transition-all duration-200;
+}
+
+.btn-primary {
+  @apply bg-letterboxd-accent text-letterboxd hover:bg-letterboxd-accent-hover hover:shadow-lg;
+}
+
+.btn-secondary {
+  @apply bg-letterboxd-light text-letterboxd-text-bright hover:bg-letterboxd-border hover:text-letterboxd-accent;
+}
+
+.card {
+  @apply bg-letterboxd-light rounded-lg overflow-hidden shadow-card transition-all duration-300 hover:shadow-card-hover;
+}
+
+.input {
+  @apply w-full px-4 py-2 bg-letterboxd text-letterboxd-text-bright border border-letterboxd-border rounded-md focus:outline-none focus:ring-2 focus:ring-letterboxd-accent focus:border-transparent;
+}
