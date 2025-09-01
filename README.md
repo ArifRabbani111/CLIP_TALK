@@ -85,7 +85,7 @@ Commit your changes with clarity.
 Submit a pull request.
 
 Follow standard coding practices (ESLint, Prettier) to keep it clean.
-
+ 
 🔮 Future Directions
 
 🌍 Real-time collaboration (shared watchlists, group chats).
