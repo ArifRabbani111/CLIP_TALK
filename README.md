@@ -31,16 +31,23 @@ Clone and run locally in minutes:
 
 # Clone repo
 git clone https://github.com/ArifRabbani111/CLIP_TALK.git
+
 cd CLIP_TALK
 
 # Frontend setup
+
 cd frontend
+
 npm install
+
 npm run dev    # or npm start
 
 # Backend setup
+
 cd ../backend
+
 npm install
+
 npm start
 
 
